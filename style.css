@@ -8,11 +8,17 @@ ul{
 
 li a{
     display: block;
-    width: 60px;
+    width: 200px;
     background-color: #dddddd;
 }
 
 /*
 display: block; - Displaying the links as block elements makes the whole link area clickable (not just the text), and it allows us to specify the width (and padding, margin, height, etc. if you want)
-width: 60px; - Block elements take up the full width available by default. We want to specify a 60 pixels width
+width: 200px; - Block elements take up the full width available by default. We want to specify a 60 pixels width
 */
+
+li a:hover{
+    background-color: #555;
+    /*this color is added in the text*/
+    color: white;
+}
