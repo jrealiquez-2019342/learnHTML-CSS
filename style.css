@@ -17,8 +17,20 @@ display: block; - Displaying the links as block elements makes the whole link ar
 width: 200px; - Block elements take up the full width available by default. We want to specify a 60 pixels width
 */
 
+
 li a:hover{
     background-color: #555;
     /*this color is added in the text*/
+    color: white;
+}
+
+
+li a.active{
+    background-color: #04AA6D;
+    color: white;
+}
+
+li a:hover:not(.active){
+    background-color: #555;
     color: white;
 }
