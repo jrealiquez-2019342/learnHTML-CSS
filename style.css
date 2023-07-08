@@ -2,15 +2,29 @@ ul{
     list-style-type: none;
     margin: 0;
     padding: 0;
+    width: 200px;
+    background-color: #f1f1f1;
+    border: 1px solid #555;
 }
 
 /*We add the background at our page*/
 
 li a{
     display: block;
-    width: 200px;
-    background-color: #dddddd;
+    color: #000;
+    padding: 8px 16px;
+    text-decoration: none;
 }
+
+li{
+    text-align: center;
+    border-bottom: 1px solid #555;
+}
+
+li:last-child{
+    border-bottom: none;
+}
+
 
 /*
 display: block; - Displaying the links as block elements makes the whole link area clickable (not just the text), and it allows us to specify the width (and padding, margin, height, etc. if you want)
