@@ -2,9 +2,11 @@ ul{
     list-style-type: none;
     margin: 0;
     padding: 0;
-    width: 200px;
+    width: 25%;
     background-color: #f1f1f1;
-    border: 1px solid #555;
+    position: fixed;
+    height: 100%;
+    overflow: auto;
 }
 
 /*We add the background at our page*/
@@ -14,28 +16,6 @@ li a{
     color: #000;
     padding: 8px 16px;
     text-decoration: none;
-}
-
-li{
-    text-align: center;
-    border-bottom: 1px solid #555;
-}
-
-li:last-child{
-    border-bottom: none;
-}
-
-
-/*
-display: block; - Displaying the links as block elements makes the whole link area clickable (not just the text), and it allows us to specify the width (and padding, margin, height, etc. if you want)
-width: 200px; - Block elements take up the full width available by default. We want to specify a 60 pixels width
-*/
-
-
-li a:hover{
-    background-color: #555;
-    /*this color is added in the text*/
-    color: white;
 }
 
 
