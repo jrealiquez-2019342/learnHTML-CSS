@@ -8,6 +8,13 @@ li{
     display: inline;
 }
 
+/*
+display: 
+    inline; - By default, <li> elements are block elements. 
+    Here, we remove the line breaks before and after each list item,
+    to display them on one line
+*/
+
 a{
     text-decoration: none;
 }
