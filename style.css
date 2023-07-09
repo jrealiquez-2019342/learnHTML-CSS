@@ -3,7 +3,7 @@ ul{
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background: #dddddd;
+    background: #333;
 }
 
 li{
@@ -12,23 +12,13 @@ li{
 
 li a {
     display: block;
-    padding: 8px;
-    background-color: #dddddd;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    
 }
 
-/*
-float: 
-    left; - Use float to get block elements to float next to each other
-display:
-    block; - Allows us to specify padding (and height, width, margins, etc. if you want)
-padding:
-    8px; - Specify some padding between each <a> element, to make them look good
-background-color: 
-    #dddddd; - Add a gray background-color to each <a> element
-
-Tip: Add the background-color to <ul> instead of each <a> element if you want a full-width background color:
-*/
-
-a{
-    text-decoration: none;
+li a:hover{
+    background-color: #111;
 }
