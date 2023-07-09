@@ -16,10 +16,14 @@ li a {
 }
 
 /*
-display: 
-    inline; - By default, <li> elements are block elements. 
-    Here, we remove the line breaks before and after each list item,
-    to display them on one line
+float: 
+    left; - Use float to get block elements to float next to each other
+display:
+    block; - Allows us to specify padding (and height, width, margins, etc. if you want)
+padding:
+    8px; - Specify some padding between each <a> element, to make them look good
+background-color: 
+    #dddddd; - Add a gray background-color to each <a> element
 */
 
 a{
