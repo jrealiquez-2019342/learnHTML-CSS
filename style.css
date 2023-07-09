@@ -1,42 +1,42 @@
 body{
-    margin: 0;
+    font-size: 28px;
+    
 }
 
 ul{
     list-style-type: none;
     margin: 0;
     padding: 0;
-    border: 1px solid #e7e7e7;
+    overflow: hidden;
     position: fixed;
     top: 0;
     width: 100%;
-    background-color: #f3f3f3;
+    background-color: #333;
+    position: -webkit-sticky;/* Safari*/
+    position: sticky;
 }
 
-/* Add a gray right border to all list items, except the last item (last-child)*/
 li{
-    border-right: 1px solid #bbb;
     float: left;
 }
 
-li:last-child{
-    border-right: none;
-}
 
 li a {
     display: block;
-    color: #666;
+    color: white;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
-    
 }
 
-li a:hover:not(.active){
-    background: #ddd;
+li a:hover{
+    background-color: #111;
+}
+
+li a:not(.active){
+    background-color: #333;
 }
 
 .active{
-    color: white;
-    background: #04AA6D;
+    background: #4CAF50;
 }
