@@ -5,9 +5,14 @@ ul{
     overflow: hidden;
     background: #333;
 }
-
+/* Add a gray right border to all list items, except the last item (last-child)*/
 li{
+    border-right: 1px solid #bbb;
     float: left;
+}
+
+li:last-child{
+    border-right: none;
 }
 
 li a {
