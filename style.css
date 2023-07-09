@@ -3,6 +3,7 @@ ul{
     margin: 0;
     padding: 0;
     overflow: hidden;
+    background: #dddddd;
 }
 
 li{
@@ -24,6 +25,8 @@ padding:
     8px; - Specify some padding between each <a> element, to make them look good
 background-color: 
     #dddddd; - Add a gray background-color to each <a> element
+
+Tip: Add the background-color to <ul> instead of each <a> element if you want a full-width background color:
 */
 
 a{
